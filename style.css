@@ -1,0 +1,37 @@
+ 
+ 
+ .clock{
+    background-color: blanchedalmond;
+    height: 300px;
+    width: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70px;
+ }
+ 
+ .hour-hand{
+
+    background-color: black;
+    height: 70px;
+    width: 10px;
+    position: relative;
+ }
+
+ .minute-hand{
+background-color: red;
+
+height: 40px;
+width :10px;
+position: absolute;
+ }
+
+
+ .second-hand{
+
+    background-color: rgb(40, 90, 172);
+    height: 100px;
+    width: 10px;
+    position:absolute
+ }
